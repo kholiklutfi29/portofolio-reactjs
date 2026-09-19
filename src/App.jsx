@@ -36,11 +36,9 @@ function Home() {
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a
-              href="#"
+              href={`${import.meta.env.BASE_URL}CV-Kholik-Al-Lutfi.pdf`}
+              download="CV-Kholik-Lutfi.pdf"
               className="flex items-center bg-violet-700 gap-1 p-4 rounded-2xl hover:bg-violet-600"
-              // bg-violet-800
-              // bg-blue-900
-              // bg-slate-800
             >
               Download CV
               <i className="ri-download-line ri-lg"></i>
